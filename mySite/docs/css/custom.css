@@ -1,0 +1,11 @@
+/* Masquer la barre en bas */
+.md-footer {
+    display: none;
+}
+
+.text-rouge {
+    color: red;
+}
+.text-bleu {
+    color: blue;
+}

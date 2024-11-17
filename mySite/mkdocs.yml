@@ -1,0 +1,25 @@
+site_name: 'OG Cyber Security'
+
+# Personnaliser les couleurs (rouge)
+theme:
+  name: 'material'
+  palette:
+    scheme: 'auto'  # Correction ici
+    primary: 'red'
+    accent: 'red'
+  features:
+
+
+nav:
+  - Accueil: index.md
+  - Forensics:
+      - Linux: forensics/linux.md
+      - Windows: forensics/windows.md
+
+# Activer la recherche
+plugins:
+  - search:
+      lang: ['fr']  # Correctement indenté sous le plugin search
+
+extra_css:
+  - css/custom.css  # Lien vers votre fichier CSS personnalisé
